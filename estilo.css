@@ -1,0 +1,218 @@
+* {
+	box-sizing: border-box;
+	background-color: #363636;
+	
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: auto;
+	  margin-bottom: auto;
+}
+
+.divnav{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	color: white;
+	border-radius: 10px;
+}
+
+ul{
+	border-radius: 12px;
+}
+
+li{
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+.nav-link{
+	color: white;
+}
+
+a{
+	padding: 8px;
+}
+
+.ul:hover {
+ 
+	color: white;
+  }
+
+.estilodanav{
+	  text-align: left;
+	  font-size: 25px;
+	  color: white;
+}
+carosel {
+	  float: right;
+	  padding: 0;
+	  width: 100%;
+	  background-color: #363636;
+	  height: 75%;
+	  color: white;
+}
+
+.content{
+	width: 100%;
+	height: auto;
+	color: white;
+	margin: 0;
+	padding: 0;
+
+}
+.content-specific{
+	width: 100%;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+.img{
+	width: 100%;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text{
+	width: 100%;
+	text-align: justify;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+.text h3{
+	margin-bottom: 25px;
+}
+.text h4{
+	margin-bottom: 25px;
+}
+.text p{
+	font-size: 18px;
+}
+.guys{
+	width: 100%;
+	height: auto;
+	display: block;
+	-webkit-box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81); 
+	box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81);
+	padding-top: 20px;
+	padding: 5%;
+}
+.container-guys{
+	width: 100%;
+	display: flex;
+	color: white;
+	margin-top: 15px;
+}
+
+.bio2{
+	order: 2;
+	display: flex;
+	align-items: center;
+	width: 70%;
+	padding-left: 20px;
+	padding-bottom: 5%;
+}
+
+.bio p{
+	padding: 20px;
+	font-size: 18px;
+}
+.entrevista{
+	width: 100%;
+	height: auto;
+	color: white;
+	-webkit-box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81); 
+	box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81);
+	padding-top: 5%;
+}
+.container-entrevista{
+	width: 100%;
+	padding: 4%;
+
+}
+.title-entrevista{
+	width: 100%;
+	text-align: center;
+	padding: 0 0 40px 0;
+}
+
+.members{
+	width: 100%;
+}
+.container-member{
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+	color: white;
+}
+.container-member member{
+	padding: 5%;
+}
+.container-member p{
+	width: 100%;
+	text-align: justify;
+}
+.container-member-content{
+	-webkit-box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81); 
+	box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81);
+	padding: 5%;
+}
+
+.title-member{
+	width: 100%;
+	text-align: center;
+	padding: 2%;
+	color: white;
+}
+
+.form-contato{
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81); 
+	box-shadow: 3px 3px 34px 6px rgba(255,255,255,0.81);
+	padding: 5%;
+}
+.title-form{
+	color: white;
+}
+
+.tabela{
+	color: white;
+}
+
+.tabela-2{
+	color: white;
+}
+
+section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+footer {
+	  background-color: #363636 ;
+	  padding: 10px;
+	  width: 100%;
+	  height: 5%;
+	  text-align: center;
+	  color: white;
+}
+
+
+
+H2.centralizar{
+		font-size: 35px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 10em
+}
